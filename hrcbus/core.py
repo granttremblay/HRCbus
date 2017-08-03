@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 '''
-busmonitor.py: Create trending plots for the Chandra/HRC Primary bus
+core.py: Create trending plots for the Chandra/HRC Primary bus
 using data from the Ska engineering telemetry archive.
 '''
 
