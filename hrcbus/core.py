@@ -10,6 +10,10 @@ __author__ = "Dr. Grant R. Tremblay"
 import sys
 import os
 
+from telemetry.engarchive import fetch
+from telemetry.Matplotlib import plot_cxctime
+import telemetry.Time
+
 import time
 
 import matplotlib.pyplot as plt
@@ -36,6 +40,10 @@ def check_environment():
 
 def fetch_msids():
     '''Fetch the MSIDs from the Ska Archive'''
+
+    fetch.MSID(msid, start, now, filter_bad = filter_bad, stat = 'daily')
+
+    return telemetry
 
 def main():
     '''Make the plots.'''

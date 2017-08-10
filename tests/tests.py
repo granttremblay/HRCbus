@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-from context import hrcbus
+
+# Set the path explicitly #
+sys.path.insert(0, os.path.abspath(__file__+"/../.."))
+
 
 import unittest
 
